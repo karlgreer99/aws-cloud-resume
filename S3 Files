@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl Greer | Online Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-summary {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #2980b9;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-img-container">
+                <img src="profile.jpg" alt="Karl Greer" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h1 id="name">Karl Greer</h1>
+                <p class="tagline">Aspiring Data Analyst & Cloud Practitioner</p>
+                <div class="contact-info">
+                    <span>📧 Karlgreer1999@gmail.com</span> |
+                    <span>📱 +353 85 213 6844</span> |
+                    <span>📍 Co. Dublin, Ireland</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="profile-summary">
+            <h3>Professional Profile</h3>
+            <p>
+                Adaptable professional transitioning into Data Analytics and Cloud Computing after a successful career in hospitality management. 
+                I bring years of leadership experience managing large teams and complex operations at major venues including the Convention Centre Dublin, 3Arena, and Electric Picnic. 
+                Following my time as a Supervisor, I spent a year living in Spain (2023–2024) where I grew up. 
+                I took a career break for my mental health to re-evaluate my path and have dedicated myself to technical training. 
+                Now upskilled and trained in AWS Cloud Essentials, Digital Marketing, and Google Analytics, I am reliable, hardworking, and ready to leverage my problem-solving abilities to solve any challenges in a full-time role.
+            </p>
+        </div>
+
+        <hr>
+
+        <section class="section skills-section">
+            <h2>Technical Skills & Training</h2>
+            <div class="skills-grid">
+                <span class="skill-tag" style="background-color: #e3f2fd; color: #0d47a1;">AWS Cloud Practitioner Essentials</span>
+                <span class="skill-tag" style="background-color: #e3f2fd; color: #0d47a1;">Microsoft Azure AI Essentials</span>
+                <span class="skill-tag">Google Data Analytics</span>
+                <span class="skill-tag">Operations Management</span>
+                <span class="skill-tag">Digital Marketing</span>
+                <span class="skill-tag">Interested in Studying Code</span>
+            </div>
+        </section>
+
+        <section class="section experience-section">
+            <h2>Projects & Experience</h2>
+            <p class="instruction"><i>Click on a role to view details.</i></p>
+            
+            <div class="timeline" id="timeline-container">
+                
+                <div class="timeline-item active">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Cloud-Hosted Resume Project</h3>
+                            <span class="date">Jan 2026 - Present</span>
+                        </div>
+                        <div class="company">Personal Project</div>
+                        <div class="job-details">
+                            <p>Designed and deployed a serverless online resume using AWS Cloud services.</p>
+                            <ul>
+                                <li><strong>Cloud Infrastructure:</strong> Configured AWS S3 buckets for static website hosting with custom policy permissions.</li>
+                                <li><strong>AI-Assisted Development:</strong> Utilized AI tools to generate the core HTML & CSS structure, then personally troubleshooted and refined the code to ensure it runs perfectly in the browser.</li>
+                                <li><strong>Problem Solving:</strong> Resolved deployment errors including permission policies and file naming conventions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Team Leader & Supervisor</h3>
+                            <span class="date">2017 - 2022</span>
+                        </div>
+                        <div class="company">Fitzers Catering (CCD, 3Arena, Electric Picnic)</div>
+                        <div class="job-details">
+                            <p>Promoted to leadership based on performance in high-volume, rapid-deployment environments.</p>
+                            <ul>
+                                <li><strong>Operational Leadership:</strong> Promoted from waiter to supervisor based on performance in high volume, fast paced environments including the CCD, Electric Picnic and the 3Arena.</li>
+                                <li><strong>Management & Planning:</strong> Planned and executed daily operational timetables, coordinating staff duties, event setup, and service flow.</li>
+                                <li><strong>High Stakes Responsibility:</strong> Entrusted with manager level responsibilities at the Curragh Racecourse, specifically overseeing the Owners and Trainers Restaurant.</li>
+                                <li><strong>Team Management:</strong> Managed large teams of staff, maintaining high service standards through clear communication and proactive leadership during intensive shifts.</li>
+                                <li><strong>Conflict Resolution:</strong> Handled complex customer service issues and real-time problem resolution, ensuring high client satisfaction under high-pressure conditions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="role">Supervisor & Waiter</h3>
+                            <span class="date">2018 - 2020</span>
+                        </div>
+                        <div class="company">Knights Catering</div>
+                        <div class="job-details">
+                            <p>Selected for high-profile events at sensitive locations (Dept. of Foreign Affairs) due to reliability.</p>
+                            <ul>
+                                <li><strong>Targeted Recruitment:</strong> Selected by a previous manager based on a strong reputation for operational reliability and the ability to represent the company at high-profile, sensitive locations.</li>
+                                <li><strong>Coordination & Site Setup:</strong> Transport and deployment of catering equipment across a diverse range of venues, including the Department of Foreign Affairs, private members clubs, and historical sites.</li>
+                                <li><strong>Resource Management:</strong> Maintained strict inventory control and equipment organization during transit and on-site, ensuring zero downtime and maximum efficiency during live events.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section education-section">
+            <h2>Education & Coursework</h2>
+            
+            <div class="education-item">
+                <h3>CompTIA A+ (In Progress)</h3>
+                <p>ecollege.ie | 2026 - Present</p>
+            </div>
+
+            <div class="education-item">
+                <h3>AWS Cloud Practitioner Essentials</h3>
+                <p>AWS Training & Certification | Completed Jan 2026</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Microsoft Azure AI Essentials</h3>
+                <p>LinkedIn Learning | Completed Jan 2026</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Google Data Analytics Professional Certificate</h3>
+                <p>Coursera / Google | Issued 2025</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Digital Marketing</h3>
+                <p>Whitehall College | 2019 - 2020</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>Leaving Certificate</h3>
+                <p>2013 - 2019</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // Select all timeline items
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    timelineItems.forEach(item => {
+        // Add click event listener to each item
+        item.addEventListener('click', () => {
+            
+            // Toggle the 'active' class on the clicked item
+            // This triggers the CSS transition for .job-details
+            item.classList.toggle('active');
+            
+            // Optional: Close other items when one is opened (Accordion style)
+            // Uncomment the lines below if you want only one open at a time
+            /*
+            timelineItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                }
+            });
+            */
+        });
+    });
+});
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-top: 15px;
+    color: #2c3e50;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 30px 0;
+}
+
+/* Sections */
+h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.instruction {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #e0e0e0;
+}
+
+.timeline-item {
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer; /* Indicates interactivity */
+}
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    background: #2980b9;
+    border-radius: 50%;
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px #2980b9;
+    transition: background 0.3s;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    transition: box-shadow 0.3s;
+}
+
+.timeline-item:hover .timeline-content {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.role {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.85em;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.company {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Logic for expand/collapse */
+.job-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    opacity: 0;
+}
+
+.timeline-item.active .job-details {
+    max-height: 500px; /* Arbitrary large height */
+    opacity: 1;
+    margin-top: 10px;
+    transition: max-height 0.5s ease-in, opacity 0.5s;
+}
+
+.timeline-item.active .timeline-dot {
+    background: #2ecc71;
+    box-shadow: 0 0 0 2px #2ecc71;
+}
+
+/* Education */
+.education-item {
+    margin-bottom: 15px;
+}
