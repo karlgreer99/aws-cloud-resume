@@ -2,7 +2,7 @@
 
 I built this project to challenge myself with cloud technology. I wanted to build something real on AWS.
 
-You can see my live site here: [[karlgreeraws.com](https://karlgreeraws.com/)
+You can see my live site here: [karlgreeraws.com](https://karlgreeraws.com/)
 
 ## Why I Built This:
 I have been into tech my whole life. Building custom PCs and launching Shopify stores. After a successful career in hospitality management. I built this project to prove that I can combine my lifelong technical aptitude with professional cloud infrastructure skills.
