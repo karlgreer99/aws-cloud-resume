@@ -16,4 +16,4 @@ This isn't just a basic HTML page. I treated it like a production app:
 
 ## Tech Stack
 * **AWS:** S3, CloudFront, Route 53, ACM
-* **Code:** HTML5, CSS3, JavaScript
+* **Code:** HTML5, CSS3, JavaScript   
